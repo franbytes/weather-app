@@ -32,4 +32,5 @@
 ## Notes
 
 - No [NEEDS CLARIFICATION] markers were needed: every ambiguous point (default location behavior, "large cities" list, wind-unit pairing, time zone display) had a reasonable, low-risk industry-standard default, documented under Assumptions in spec.md instead of blocking on user input.
-- Ready for `/speckit-clarify` (optional) or `/speckit-plan`.
+- 2026-08-06 clarification session: resolved the front-end stack decision (React + Vite) and recorded it under Assumptions in spec.md, alongside the existing weather-provider assumption. This is a confirmed technical direction, not an implementation detail leaking into the mandatory sections (User Scenarios, Requirements, Success Criteria), so no checklist items changed state.
+- Ready for `/speckit-plan`.
