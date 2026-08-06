@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+.next/
+out/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Claude Code local state (may contain credentials/tokens) — keep .claude/skills/ tracked
+.claude/settings.local.json
+.claude/.credentials.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
