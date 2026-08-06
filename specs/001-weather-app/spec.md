@@ -8,6 +8,12 @@
 
 **Input**: User description: "Build a weather app. Work with an API to get the current weather of a location. Display temperature, location, time, wind, high/low temperature, and weather status of the selected location. Show the temperature of the upcoming 24 hours with 3-hour intervals. Provide a forecast of the next 5 days with weather status and low/high temperature. Display summary weather of large cities. Allow users to choose between Celsius and Fahrenheit. Implement city search functionality. Deploy the solution and submit Repository URL and Demo URL."
 
+## Clarifications
+
+### Session 2026-08-06
+
+- Q: Which front-end stack should the app use — plain HTML/CSS/JavaScript, or a front-end library/framework such as React or Vue? → A: React (bootstrapped with Vite as the build tool)
+
 ## User Scenarios & Testing *(mandatory)*
 
 ### User Story 1 - View Current Weather for a Location (Priority: P1)
@@ -155,3 +161,4 @@ A user switches the displayed temperature unit between Celsius and Fahrenheit, a
 - No historical weather data or forecasting beyond 5 days is in scope.
 - The app remembers the most recently viewed location and unit preference between visits as a usability convenience, even though this was not explicitly requested.
 - Weather and forecast data are sourced from a single third-party weather data provider with global coverage; the specific provider is a technical decision made during planning, not part of this specification.
+- The front-end is implemented with React (bootstrapped via Vite) rather than plain HTML/CSS/JavaScript. This trades a small amount of build tooling and a framework learning curve for componentized state management (selected location, unit preference, forecast lists) and stronger portfolio/job-market relevance.
